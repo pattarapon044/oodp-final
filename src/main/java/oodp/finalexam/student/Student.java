@@ -11,16 +11,17 @@ public class Student {
   
     public Student(String name, String id, int year, double GPA) {
     	//TODO: create constructor which accept parameter as name, id, year, and GPA, respectively
-        
-        
+        this.name = name;
+		this.id = id;
+		this.year = year;
+		this.GPA = GPA;
     }
     
-   //TODO: complete  tostring() method which should return, 
+   //TODO: complete  toString() method which should return,
    //for example "Student ID:[001], name:[Anna], year:[1] ,GPA:[3.0]"
     public String toString() {
-        return null;
-          
-    }    
+        return "Student ID:" + id + ", name:"+ name +", year:" + year+ " ,GPA:" + GPA;
+    }
     
    
 	public boolean isMoreGPA(Student other) {
