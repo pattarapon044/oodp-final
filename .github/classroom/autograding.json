@@ -1,0 +1,104 @@
+{
+  "tests": [
+   {
+      "name": "test testWrongCreditCardNo",
+      "setup": "",
+      "run": "mvn test -Dtest=TestException#testWrongCreditCardNo",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 2
+    },
+      {
+      "name": "test testWrongLoanAmount1",
+      "setup": "",
+      "run": "mvn test -Dtest=TestException#testWrongLoanAmount1",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 1.5
+    },
+     {
+      "name": "test testWrongLoanAmount2",
+      "setup": "",
+      "run": "mvn test -Dtest=TestException#testWrongLoanAmount2",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 1.5
+    },
+     {
+      "name": "test testNoOfMonth1",
+      "setup": "",
+      "run": "mvn test -Dtest=TestException#testNoOfMonth1",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 1.5
+    },
+    {
+      "name": "test testNoOfMonth2",
+      "setup": "",
+      "run": "mvn test -Dtest=TestException#testNoOfMonth2",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 1.5
+    },
+      {
+      "name": "test testNumberformat1",
+      "setup": "",
+      "run": "mvn test -Dtest=TestException#testNumberformat1",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 1
+    },
+      {
+      "name": "test testNumberformat2",
+      "setup": "",
+      "run": "mvn test -Dtest=TestException#testNumberformat2",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 1
+    },
+    
+    {
+      "name": "test testLoadStudent",
+      "setup": "",
+      "run": "mvn test -Dtest=TestStudent#testLoadStudent",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 3
+    },
+     {
+      "name": "test testprintStudentsArray",
+      "setup": "",
+      "run": "mvn test -Dtest=TestStudent#testprintStudentsArray",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 2
+    },
+     {
+      "name": "test testsearchByID",
+      "setup": "",
+      "run": "mvn test -Dtest=TestStudent#testsearchByID",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 3
+    },
+    {
+      "name": "test testtoString",
+      "setup": "",
+      "run": "mvn test -Dtest=TestStudent#testtoString",
+      "input": "",
+      "output": "",
+      "timeout": 3,
+      "points": 2
+    }    
+   ]
+}
